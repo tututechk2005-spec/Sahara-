@@ -1,0 +1,26 @@
+{
+  "name": "telegram-binance-sniper-bot",
+  "version": "3.0.0",
+  "description": "Professional Telegram Binance Trading Bot — multi-account switching, sniper-only strategy (8 confirmations), 24/7 continuous auto-trading, real-time statistics, working referral system, atomic JSON database.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node test/signalEngine.test.js && node test/tradingEngine.test.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "ws": "^8.18.0",
+    "uuid": "^9.0.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "keywords": ["telegram", "bot", "crypto", "trading", "binance", "sniper", "spot", "futures"],
+  "author": "",
+  "license": "MIT"
+}
